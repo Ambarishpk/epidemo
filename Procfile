@@ -1,0 +1,1 @@
+web: gunicorn Epidemiology.wsgi --log-file=-
