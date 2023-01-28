@@ -1,1 +1,1 @@
-web: gunicorn Epidemiology.wsgi --log-file=-
+web: gunicorn Epidemiology.wsgi --log-file -
