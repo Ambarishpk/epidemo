@@ -1,6 +1,6 @@
 ## Steps to Setting up the project on local machine (Windows) to run the project
 
-## View app in Live here https://epidemo-production.up.railway.app/
+### View app in Live here https://epidemo-production.up.railway.app/
 
 
 #### Note: Make sure Python has installed on your machine. If not, get it from here https://www.python.org/downloads/
