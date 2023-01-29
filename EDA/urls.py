@@ -1,6 +1,9 @@
 from django.urls import path, re_path
 from . import views
 from . import data_integration
+from django.conf import settings
+from django.conf.urls.static import static
+
 
 urlpatterns = [
 
@@ -145,10 +148,4 @@ urlpatterns = [
     re_path(r'^ChangeDtypeColumn/(?P<fName>[-\w.]+\w{0,50})/$',
             views.ChangeDtype, name="ChangeDtype"),
 
-
-
-
-
-
-
-]
+] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

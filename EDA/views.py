@@ -40,9 +40,6 @@ from sklearn.datasets import make_blobs
 
 
 # Matplot
-from matplotlib import pyplot as plt
-import seaborn as sns
-from scipy import stats
 from sklearn.linear_model import BayesianRidge
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.preprocessing._encoders import OrdinalEncoder
